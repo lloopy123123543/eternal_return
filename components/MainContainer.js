@@ -8,8 +8,8 @@ const MainContainer = ({children}) => {
         <div className={styles.header_logo_logo}></div>
         </div>
         <div className={styles.header_menu}>
-        <div className={styles.header_menu_text}><a href='/heroes/'>heroes</a></div>
-        <div className={styles.header_menu_text}><a href='/'>return</a></div>
+        <div className={styles.header_menu_text}><link href='/heroes'><a>Heroes</a></link></div>
+        <div className={styles.header_menu_text}><link href='/'><a>Home</a></link></div>
         <div className={styles.header_menu_text}>About</div>
         <div className={styles.header_menu_text_button}>
         <div className={styles.header_menu_text_button_play}>PLAY</div>
