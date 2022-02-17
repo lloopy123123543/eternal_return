@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import MainContainer from '../components/MainContainer'
+import BgContainer from '../components/BgContainer'
 
 export default function Home() {
   return (
@@ -12,27 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainContainer></MainContainer>
-      <div className={styles.container}>
-      <div className={styles.tringle}>
-      <div className={styles.tringle_text}>
-      </div>
-      </div>
-      <div className={styles.main}>
-      <div className={styles.main_content}>
-        <div className={styles.main_content_logo}></div>
-        <div className={styles.main_content_platforms}>
-                <div className={styles.main_content_platforms_steam}>
-        
-        </div>
-        <div className={styles.main_content_platforms_steam}>
-        
-        </div>
-
-
-        </div>
-      </div>
-      </div>
-      </div>
+      <BgContainer></BgContainer>
 
 
     </div>

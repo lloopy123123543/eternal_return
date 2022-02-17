@@ -9,7 +9,7 @@ const MainContainer = ({children}) => {
         <div className={styles.header_logo_logo}></div>
         </div>
         <div className={styles.header_menu}>
-        <div className={styles.header_menu_text}><Link href="/heroes"><a>heroes</a></Link></div>
+        <div className={styles.header_menu_text}><Link href="/heroes"><a>Heroes</a></Link></div>
         <div className={styles.header_menu_text}><Link href='/'><a>Home</a></Link></div>
         <div className={styles.header_menu_text}>About</div>
         <div className={styles.header_menu_text_button}>
