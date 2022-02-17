@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+.container{
+  max-width: 1920px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.header{
+  width: 90%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 1);
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  position: fixed;
+  border-radius: 20px;
+}
+.header_logo{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_logo_logo{
+  width: 20%;
+  height: 80%;
+  background: url("../img/er-logo-white.png");
+  background-size: cover;
+}
+.header_menu{
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.header_menu_text{
+  color: white;
+  font-size: 20px;
+  margin-left: 30px;
+
+}
+.header_menu_text_button{
+  margin-left: 50px;
+  background-color: yellow;
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_menu_text_button_play{
+  font-size: 35px;
+}
+.main{
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  background-color: darkslategray;
+  background: url("../img/bg1.png");
+}
+.main_content{
+  width: 85%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main_content_logo{
+  width: 79%;
+  height: 48%;
+  background:url("../img/er-logo-white.png");
+  background-size: cover;
+
+}
+.main_content_platforms{
+  margin-top: 50px;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.main_content_platforms_steam{
+  width: 11%;
+  height: 98%;
+  background: url("../img/steam2.png");
+  background-size: cover;
+
+}
+.tringle{
+  position: absolute;
+  border: 820px solid transparent; border-bottom: 480px solid yellow; border-left: 420px solid yellow;
+  margin-left: -100%;
+  margin-top: -400px;
+}
+.tringle_text{}
+.news{
+  width: 100%;
+  height: 1000px;
+  background-color: rgb(26, 26, 26);
+
+}
+.news_title{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+.news_heroes_container{
+  width: 80%;
+  height: 90%;
+  margin-left: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+.news_heroes_block{
+  margin-top: 100px;
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  background-color: black;
+  background: url("../img/avatar_evelin.png");
+}
+.news_heroes_block_n{
+  margin-top: 100px;
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  background-color: black;
+  background: url("../img/avatar_nicky.png");
+}
+.news_heroes_block_r{
+  margin-top: 100px;
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  background-color: black;
+  background: url("../img/avatar_rider.png");
+}
+.news_heroes_block_ch{
+  margin-top: 100px;
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  background-color: black;
+  background: url("../img/avatar_png_chain.png");
+}
