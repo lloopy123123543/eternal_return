@@ -3,7 +3,6 @@ import Link from 'next/link'
 const MainContainer = ({children}) => {
     return (
         <>
-        you&apos;re free;
         <div className={styles.container}>
         <div className={styles.header}>
         <div className={styles.header_logo}>

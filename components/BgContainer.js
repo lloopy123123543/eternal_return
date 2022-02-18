@@ -9,7 +9,6 @@ const BgContainer = ({children}) => {
       </div>
       </div>
       <div className={styles.main}>
-      <img src='../img/bg1.png'></img>
       <div className={styles.main_content}>
         <div className={styles.main_content_logo}></div>
         <div className={styles.main_content_platforms}>
