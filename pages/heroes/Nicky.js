@@ -4,7 +4,6 @@ import styles from '../../styles/Nicky.module.css'
 export default function Nicky_hero(){
     return(
         <div className={styles.containers}>
-        you&apos;re free
             <MainContainer></MainContainer>
             <div className={styles.container}>
                 <div className={styles.main}>
