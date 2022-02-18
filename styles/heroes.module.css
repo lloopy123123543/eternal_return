@@ -1,7 +1,10 @@
 .news{
   width: 100%;
-  height: 1000px;
+  height: 100%;
   background-color: rgb(26, 26, 26);
+  display: flex;
+  flex-direction: column;
+  flex-grow: initial;
 
 }
 .news_title{
@@ -23,6 +26,7 @@
 
 }
 .news_heroes_block{
+  cursor: pointer;
   margin-top: 100px;
   width: 150px;
   height: 150px;
@@ -31,6 +35,7 @@
   background: url("../img/avatar_evelin.png");
 }
 .news_heroes_block_n{
+  cursor: pointer;
   margin-top: 100px;
   width: 150px;
   height: 150px;
@@ -39,6 +44,7 @@
   background: url("../img/avatar_nicky.png");
 }
 .news_heroes_block_r{
+  cursor: pointer;
   margin-top: 100px;
   width: 150px;
   height: 150px;
@@ -47,6 +53,7 @@
   background: url("../img/avatar_rider.png");
 }
 .news_heroes_block_ch{
+  cursor: pointer;
   margin-top: 100px;
   width: 150px;
   height: 150px;
