@@ -59,7 +59,8 @@
   display: flex;
   justify-content: center;
   background-color: darkslategray;
-  background: url("../img/bg1.png");
+  background: url("https://i.ibb.co/jyWFvQP/bg1.png");
+  background-size: cover;
 }
 .main_content{
   width: 85%;
@@ -73,7 +74,7 @@
 .main_content_logo{
   width: 79%;
   height: 48%;
-  background:url("../img/er-logo-white.png");
+  background:url("https://i.ibb.co/NShDttX/er-logo-white.png");
   background-size: cover;
 
 }
