@@ -1,6 +1,6 @@
 import MainContainer from '../../components/MainContainer'
 import styles from '../../styles/Nicky.module.css'
-import Link from 'next/link'
+
 export default function Nicky_hero(){
     return(
         <div className={styles.containers}>
